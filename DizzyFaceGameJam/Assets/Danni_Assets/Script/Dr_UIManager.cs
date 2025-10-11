@@ -11,6 +11,7 @@ public class dr_UIManager : MonoBehaviour
     public GameObject pausePanel;
     public GameObject gameOverPanel;
     public GameObject settingsPanel;
+    public GameObject creditsPanel;
 
     [Header("HUD")]
     public Text txtScore;
@@ -108,5 +109,17 @@ public class dr_UIManager : MonoBehaviour
         if (sliderSFX && mixer.GetFloat(paramSFX, out db))
             sliderSFX.SetValueWithoutNotify(DbTo01(db));
     }
+    public void Btn_OpenCredits()
+    {
+        SetPanel(creditsPanel, true);
+        SetPanel(titlePanel, false);
+    }
+
+    public void Btn_CloseCredits()
+    {
+        SetPanel(creditsPanel, false);
+        SetPanel(titlePanel, true);
+    }
+
 }
 
