@@ -14,15 +14,13 @@ public class Conrad_BouncyScript : MonoBehaviour
         ballScript = col.gameObject.GetComponent<Conrad_BallScript>();
         if (ballScript != null)
         {
-            Debug.Log(col.rigidbody.linearVelocity.magnitude.ToString());
-            if (col.rigidbody.linearVelocity.magnitude < weakIncoming)
+            Debug.Log(col.rigidbody.linearVelocityY.ToString());
+            if (col.rigidbody.linearVelocityY < weakIncoming)
             {
-                col.rigidbody.AddForce((transform.up) * (forcedBounceAmount * Time.deltaTime), ForceMode2D.Impulse);
+                col.rigidbody.linearVelocityY = (forcedBounceAmount * Time.deltaTime);
             }
-            else
-            {
-                col.rigidbody.AddForce(Vector2.Reflect(col.transform.position,transform.up) * (col.rigidbody.linearVelocity*Time.deltaTime), ForceMode2D.Impulse);
-            }
+            col.rigidbody.linearVelocity = Vector2.zero;
+            col.rigidbody.AddForce(transform.up * (bounceAmount), ForceMode2D.Impulse);
         }
     }
 }
