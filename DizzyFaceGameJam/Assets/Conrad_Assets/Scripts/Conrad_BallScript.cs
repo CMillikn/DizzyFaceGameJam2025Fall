@@ -6,8 +6,11 @@ public class Conrad_BallScript : MonoBehaviour
     public Rigidbody2D ballRB;
 
     //Float for maximum velocity
-
     public float maxVelocity;
+
+    //Tagscript for checking if collision is the killbox
+    private Conrad_KillBox killboxScript;
+
     void Start()
     {
         ballRB = GetComponent<Rigidbody2D>();
@@ -19,6 +22,15 @@ public class Conrad_BallScript : MonoBehaviour
         if (ballRB.linearVelocity.magnitude > maxVelocity)
         {
             ballRB.linearVelocity = Vector2.ClampMagnitude(ballRB.linearVelocity, maxVelocity);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        killboxScript = col.transform.GetComponent<Conrad_KillBox>();
+        if (killboxScript != null )
+        {
+            Destroy(this);
         }
     }
 }
