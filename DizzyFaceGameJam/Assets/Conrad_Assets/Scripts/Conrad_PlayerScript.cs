@@ -25,6 +25,11 @@ public class Conrad_PlayerScript : MonoBehaviour
     public float jumpCooldown;
     public bool hasJumped;
 
+    //Steam particles
+    public GameObject steamPS;
+
+    //Ball script
+    public Conrad_BallScript ballScript;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -36,7 +41,6 @@ public class Conrad_PlayerScript : MonoBehaviour
                     StartCoroutine(DoubleJumpPrevention());
                     playerRB.linearVelocityY = jumpPower;
                     isGrounded = false;
-                    //playerRB.AddForce(Vector2.up * (jumpPower*Time.deltaTime), ForceMode2D.Impulse);
                 }
             }
         }
@@ -57,10 +61,18 @@ public class Conrad_PlayerScript : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        hasJumped = false;
-        isGrounded = true;
+        ballScript = col.gameObject.GetComponent<Conrad_BallScript>();
+        if (ballScript != null)
+        {
+            Instantiate(steamPS, new Vector2(transform.position.x, transform.position.y + 1), Quaternion.identity);
+        }
+        else
+        {
+            hasJumped = false;
+            isGrounded = true;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -72,6 +84,7 @@ public class Conrad_PlayerScript : MonoBehaviour
     {
         StartCoroutine(CoyoteTime());
     }
+
 
     private void OnTriggerEnter2D(Collider2D trigCol)
     {

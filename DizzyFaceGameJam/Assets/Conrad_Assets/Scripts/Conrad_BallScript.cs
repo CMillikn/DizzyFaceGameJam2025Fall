@@ -30,7 +30,7 @@ public class Conrad_BallScript : MonoBehaviour
         killboxScript = col.transform.GetComponent<Conrad_KillBox>();
         if (killboxScript != null )
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }
