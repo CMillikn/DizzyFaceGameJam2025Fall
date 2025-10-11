@@ -1252,6 +1252,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3995153177230625215, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: weakIncoming
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995153177230625215, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: forcedBounceAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761370341110482451, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: weakIncoming
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761370341110482451, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: forcedBounceAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732119123521814985, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: weakIncoming
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732119123521814985, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: forcedBounceAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630768276818755834, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: weakIncoming
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630768276818755834, guid: bbe531977b8a001448de5d3a4dee66cb, type: 3}
+      propertyPath: forcedBounceAmount
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
