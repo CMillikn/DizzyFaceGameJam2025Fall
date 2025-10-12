@@ -2,9 +2,14 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using TMPro;
+using UnityEngine.SceneManagement; // for scene reload on Restart/Exit
 
 public class dr_UIManager : MonoBehaviour
 {
+    // skip title once after Restart (persists across scene reload within play session)
+    public static bool skipTitleOnce = false;
+
     [Header("Panels")]
     public GameObject titlePanel;        // Title screen UI
     public GameObject hudPanel;          // In-game HUD
@@ -14,8 +19,8 @@ public class dr_UIManager : MonoBehaviour
     public GameObject creditsPanel;      // Credits page
 
     [Header("HUD")]
-    public Text txtScore;                // Score display text
-    public Text txtTimer;                // Timer display text
+    public TMP_Text txtScore;            // Score display text
+    public TMP_Text txtTimer;            // Timer display text
 
     [Header("Audio Mixer")]
     public AudioMixer mixer;             // Main mixer that controls all volumes
@@ -38,13 +43,26 @@ public class dr_UIManager : MonoBehaviour
 
     void Awake()
     {
-        // Show title screen at startup
-        ShowTitle();
-
         // Add listeners to volume sliders
         if (sliderMaster) sliderMaster.onValueChanged.AddListener(SetMasterVolume);
         if (sliderMusic) sliderMusic.onValueChanged.AddListener(SetMusicVolume);
         if (sliderSFX) sliderSFX.onValueChanged.AddListener(SetSFXVolume);
+
+        // If coming from Restart, skip title once and start directly in HUD
+        if (skipTitleOnce)
+        {
+            skipTitleOnce = false;
+            HideAll();
+            SetPanel(hudPanel, true);
+            Time.timeScale = 1f;
+            paused = false;
+        }
+        else
+        {
+            // Show title screen at startup and freeze gameplay until Start
+            ShowTitle();
+            Time.timeScale = 0f;
+        }
     }
 
     // Show or hide a panel smoothly using CanvasGroup
@@ -78,12 +96,50 @@ public class dr_UIManager : MonoBehaviour
     public void ShowSettings(bool show) { SetPanel(settingsPanel, show); }
 
     // --- Button methods ---
-    public void Btn_StartGame() { if (OnStartPressed != null && OnStartPressed.GetPersistentEventCount() > 0) OnStartPressed.Invoke(); else ShowHUD(); }
+    public void Btn_StartGame()
+    {
+        if (OnStartPressed != null && OnStartPressed.GetPersistentEventCount() > 0)
+            OnStartPressed.Invoke();
+        else
+            ShowHUD();
+    }
+
     public void Btn_PauseToggle() { if (paused) HidePause(); else ShowPause(); }
     public void Btn_OpenSettings() { ShowSettings(true); }
     public void Btn_CloseSettings() { ShowSettings(false); }
-    public void Btn_Retry() { if (OnRetryPressed != null && OnRetryPressed.GetPersistentEventCount() > 0) OnRetryPressed.Invoke(); else ShowHUD(); }
-    public void Btn_ExitToTitle() { if (OnExitToTitlePressed != null && OnExitToTitlePressed.GetPersistentEventCount() > 0) OnExitToTitlePressed.Invoke(); else ShowTitle(); }
+
+    // Restart current level from Pause (or anywhere): unpause first, then either event or hard reload
+    public void Btn_Retry()
+    {
+        Time.timeScale = 1f; // ensure unpaused before restart
+
+        if (OnRetryPressed != null && OnRetryPressed.GetPersistentEventCount() > 0)
+            OnRetryPressed.Invoke();
+        else
+        {
+            // mark to skip title on the next scene load, then reload this scene
+            dr_UIManager.skipTitleOnce = true;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    public void Btn_ExitToTitle()
+    {
+        if (OnExitToTitlePressed != null && OnExitToTitlePressed.GetPersistentEventCount() > 0)
+        {
+            OnExitToTitlePressed.Invoke();
+        }
+        else
+        {
+            // NEW: hard-reload the scene and DO NOT skip title
+            Time.timeScale = 1f;        // make sure we don't carry a paused state into load
+            dr_UIManager.skipTitleOnce = false; // ensure next Awake shows Title
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // <- fresh scene = fresh run
+        }
+
+        // NOTE: no manual ShowTitle()/Time.timeScale=0 here,
+        // the freshly loaded scene's Awake will show Title and freeze it.
+    }
 
     // --- HUD updates ---
     public void SetScore(int v) { if (txtScore) txtScore.text = $"Score: {v}"; }
@@ -134,5 +190,13 @@ public class dr_UIManager : MonoBehaviour
         SetPanel(titlePanel, true);
     }
 
-}
+    void Update()
+    {
+        // Allow player to toggle Pause with 'P' key
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Btn_PauseToggle();
+        }
+    }
 
+}
