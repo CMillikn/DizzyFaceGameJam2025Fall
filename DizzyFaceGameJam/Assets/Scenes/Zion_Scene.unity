@@ -252,7 +252,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -509,7 +514,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -736,7 +746,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -813,7 +828,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -976,7 +996,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1134,7 +1159,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1272,7 +1302,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1487,7 +1522,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1564,7 +1604,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1748,7 +1793,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zoin_Wall (58)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1882,7 +1932,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2076,7 +2131,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2153,7 +2213,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2426,7 +2491,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2624,7 +2694,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2926,7 +3001,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3118,7 +3198,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3219,7 +3304,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3438,7 +3528,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3643,7 +3738,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3724,7 +3824,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3805,7 +3910,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3953,7 +4063,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4220,7 +4335,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4302,7 +4422,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4720,7 +4845,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5022,7 +5152,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5288,7 +5423,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5431,7 +5571,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5517,7 +5662,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5675,7 +5825,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5880,7 +6035,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5966,7 +6126,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6119,7 +6284,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6445,7 +6615,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6533,7 +6708,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6606,7 +6786,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6684,7 +6869,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6819,7 +7009,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6892,7 +7087,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6969,7 +7169,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7277,7 +7482,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7368,7 +7578,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7507,7 +7722,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7599,7 +7819,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7871,7 +8096,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7957,7 +8187,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8214,7 +8449,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8523,7 +8763,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8820,7 +9065,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8906,7 +9156,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8992,7 +9247,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9670,7 +9930,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9747,7 +10012,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9820,7 +10090,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10144,7 +10419,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10225,7 +10505,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10363,7 +10648,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10801,7 +11091,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10913,7 +11208,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9803922
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11000,7 +11300,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11282,7 +11587,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11646,7 +11956,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11995,7 +12310,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12076,7 +12396,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12340,7 +12665,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12418,7 +12748,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12509,7 +12844,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12709,7 +13049,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12872,7 +13217,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6605331694119735937, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: de7edf7e9fdb2d6429b5773986278fdc, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6175433944052483664, guid: ddc2f3b0d722c3b4f97907735f270f64, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
