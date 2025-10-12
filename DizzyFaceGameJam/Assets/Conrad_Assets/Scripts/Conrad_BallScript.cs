@@ -19,6 +19,12 @@ public class Conrad_BallScript : MonoBehaviour
 
     public float rehitTime;
 
+    public Animator ballAN;
+
+    public float spriteRotateSpeed;
+
+    public SpriteRenderer ballSR;
+
     void Start()
     {
 
@@ -33,6 +39,7 @@ public class Conrad_BallScript : MonoBehaviour
             ballRB.linearVelocity = Vector2.ClampMagnitude(ballRB.linearVelocity, maxVelocity);
         }
 
+        ballSR.transform.Rotate(new Vector3(0,0,(spriteRotateSpeed * Time.deltaTime)));
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -56,10 +63,15 @@ public class Conrad_BallScript : MonoBehaviour
 
     IEnumerator StartRehitTimer()
     {
+        spriteRotateSpeed = Random.Range(Random.Range(-720,-360), Random.Range(720, 360));
+        spriteRotateSpeed = spriteRotateSpeed * 2;
+        ballAN.SetBool("isPain", true);
         int HitBall = LayerMask.NameToLayer("HitBall");
         int layerBall = LayerMask.NameToLayer("Ball");
         gameObject.layer = HitBall;
         yield return new WaitForSeconds(rehitTime);
+        ballAN.SetBool("isPain", false);
         gameObject.layer = layerBall;
+        spriteRotateSpeed = spriteRotateSpeed / 2;
     }
 }
