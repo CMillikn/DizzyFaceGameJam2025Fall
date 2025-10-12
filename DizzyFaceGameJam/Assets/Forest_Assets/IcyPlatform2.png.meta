@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IcyPlatform2_0: 8015573245405031053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
