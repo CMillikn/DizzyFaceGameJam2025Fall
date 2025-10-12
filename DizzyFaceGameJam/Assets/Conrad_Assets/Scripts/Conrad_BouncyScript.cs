@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Conrad_BouncyScript : MonoBehaviour
@@ -8,9 +9,30 @@ public class Conrad_BouncyScript : MonoBehaviour
     public float weakIncoming;
     public float forcedBounceAmount;
     public Conrad_BallScript ballScript;
+    public Conrad_PlayerScript playerScript;
+    public float ballUnhitTimer;
+    public Collider2D fuckYou;
+    public Rigidbody2D andFuckYouToo;
 
-    private void OnCollisionEnter2D(Collision2D col)
+
+
+    public void Update()
     {
+        if (playerScript.canHitBall == false)
+        {
+            fuckYou.enabled = false;
+            andFuckYouToo.simulated = false;
+        }
+        else
+        {
+            fuckYou.enabled = true;
+            andFuckYouToo.simulated = true;
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D col)
+    {
+
         ballScript = col.gameObject.GetComponent<Conrad_BallScript>();
         if (ballScript != null)
         {

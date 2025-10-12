@@ -30,8 +30,21 @@ public class Conrad_PlayerScript : MonoBehaviour
 
     //Ball script
     public Conrad_BallScript ballScript;
+
+    //Animator stuff
+    [SerializeField] private Animator _animator;
+
+    //Current Vector2
+    private Vector2 currentV2;
+    public float maxSpeed;
+
+    public bool canHitBall;
+    public float ballInvincibility;
+    public GameObject bouncers;
+
     void Update()
     {
+        currentV2 = transform.position;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isGrounded)
@@ -45,14 +58,25 @@ public class Conrad_PlayerScript : MonoBehaviour
             }
         }
 
+        playerRB.linearVelocity = new Vector2(Mathf.Clamp(playerRB.linearVelocityX, -maxSpeed, maxSpeed), playerRB.linearVelocityY);
+
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector2.left * (moveSpeed * Time.deltaTime));
+            playerRB.AddForce((-Vector2.right * (moveSpeed * Time.deltaTime)));
+            //transform.Translate(Vector2.left * (moveSpeed * Time.deltaTime));
+            _animator.SetBool("isRunning", true);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector2.right * (moveSpeed * Time.deltaTime));
+            playerRB.AddForce((Vector2.right * (moveSpeed * Time.deltaTime)));
+            //transform.Translate(Vector2.right * (moveSpeed * Time.deltaTime));
+            _animator.SetBool("isRunning", true);
+        }
+
+        if ((Input.GetKeyUp(KeyCode.A))||(Input.GetKeyUp(KeyCode.D)))
+        {
+            _animator.SetBool("isRunning", false);
         }
 
         if (playerRB.linearVelocityY > jumpPower)
@@ -63,15 +87,17 @@ public class Conrad_PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        ballScript = col.gameObject.GetComponent<Conrad_BallScript>();
-        if (ballScript != null)
         {
-            Instantiate(steamPS, new Vector2(transform.position.x, transform.position.y + 1), Quaternion.identity);
-        }
-        else
-        {
-            hasJumped = false;
-            isGrounded = true;
+            ballScript = col.gameObject.GetComponent<Conrad_BallScript>();
+            if (ballScript != null)
+            {
+                Instantiate(steamPS, new Vector2(transform.position.x, transform.position.y + 1), Quaternion.identity);
+            }
+            else
+            {
+                hasJumped = false;
+                isGrounded = true;
+            }
         }
     }
 
@@ -104,6 +130,8 @@ public class Conrad_PlayerScript : MonoBehaviour
         }
     }
 
+
+
     IEnumerator CoyoteTime()
     {
         yield return new WaitForSeconds(coyoteDuration);
@@ -117,4 +145,5 @@ public class Conrad_PlayerScript : MonoBehaviour
         yield return new WaitForSeconds(jumpCooldown);
         isGrounded=true;
     }
+
 }
