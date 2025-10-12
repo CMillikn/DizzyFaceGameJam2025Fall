@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 8987245584250280765}
   - component: {fileID: 8972327228254628284}
   - component: {fileID: 1459739654827200189}
-  - component: {fileID: 4232859160930717528}
+  - component: {fileID: -4870511964895234720}
   m_Layer: 3
   m_Name: Conrad_RealPlayer
   m_TagString: Untagged
@@ -663,8 +663,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &4232859160930717528
-BoxCollider2D:
+--- !u!70 &-4870511964895234720
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -698,17 +698,8 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 1
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   m_Size: {x: 1, y: 2}
-  m_EdgeRadius: 0
+  m_Direction: 0
 --- !u!1 &4763773163555121788
 GameObject:
   m_ObjectHideFlags: 0
