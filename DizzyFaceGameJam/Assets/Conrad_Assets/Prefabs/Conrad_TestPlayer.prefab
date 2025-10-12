@@ -654,7 +654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRB: {fileID: 9044123625282802668}
   jumpPower: 7
-  moveSpeed: 5
+  moveSpeed: 7
   isGrounded: 1
   coyoteDuration: 0.2
   jumpCooldown: 0
