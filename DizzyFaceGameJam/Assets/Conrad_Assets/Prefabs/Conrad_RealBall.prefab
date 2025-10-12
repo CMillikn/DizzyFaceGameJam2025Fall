@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2831961064818697029}
   - component: {fileID: 8263040160080169405}
   - component: {fileID: 5544606165216029822}
+  - component: {fileID: -1526719628238491700}
   m_Layer: 7
   m_Name: Conrad_RealBall
   m_TagString: Untagged
@@ -115,6 +116,28 @@ MonoBehaviour:
   maxVelocity: 5
   canBeHit: 1
   rehitTime: 0.5
+--- !u!95 &-1526719628238491700
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306367999879106374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5954531295703651618
 GameObject:
   m_ObjectHideFlags: 0
