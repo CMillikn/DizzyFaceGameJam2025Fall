@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 4069037810610280448}
   - component: {fileID: 9044123625282802668}
   - component: {fileID: 914502915953537280}
+  - component: {fileID: 1742794681241509699}
   m_Layer: 3
   m_Name: Conrad_TestPlayer
   m_TagString: Untagged
@@ -661,6 +662,28 @@ MonoBehaviour:
   hasJumped: 0
   steamPS: {fileID: 386298121893345284, guid: c777913475bcf8a4d85768d00a1ebbeb, type: 3}
   ballScript: {fileID: 0}
+--- !u!95 &1742794681241509699
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2694860386169224410}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d38ddfd0391c71a47baca1763d692e37, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4783284461241306579
 GameObject:
   m_ObjectHideFlags: 0
