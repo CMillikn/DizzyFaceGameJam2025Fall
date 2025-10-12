@@ -17,6 +17,8 @@ public class dr_UIManager : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject creditsPanel;
     public GameObject howToPanel;    // How To Play page
+    public GameObject winPanel;     // Win screen
+
 
 
     [Header("HUD")]
@@ -26,6 +28,8 @@ public class dr_UIManager : MonoBehaviour
     [Header("GameOver Texts")]
     public TMP_Text txtGOTime;
     public TMP_Text txtGOBestTime;
+    public TMP_Text txtWinTime;
+    public TMP_Text txtWinBest;
 
     [Header("Audio Mixer")]
     public AudioMixer mixer;
@@ -162,6 +166,30 @@ public class dr_UIManager : MonoBehaviour
         }
         if (txtGOBestTime) txtGOBestTime.text = $"Best: {bestTime:0.0}s";
     }
+
+    public void ShowWin()
+    {
+        HideAll();
+        SetPanel(winPanel, true);
+        Time.timeScale = 0f;
+
+        timerRunning = false;
+
+        // current run clear time
+        if (txtWinTime) txtWinTime.text = $"Time: {runTime:0.0}s";
+
+        // best = minimum time to goal
+        if (bestTime <= 0f || runTime < bestTime)
+        {
+            bestTime = runTime;
+            PlayerPrefs.SetFloat(PP_BestTime, bestTime);
+            PlayerPrefs.Save();
+        }
+
+        if (txtWinBest) txtWinBest.text = $"Best: {bestTime:0.0}s";
+    }
+
+
 
     public void ShowSettings(bool show)
     {
