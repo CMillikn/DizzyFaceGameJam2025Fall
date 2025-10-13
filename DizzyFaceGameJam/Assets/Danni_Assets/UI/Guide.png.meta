@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: af11fc6ed6b3213408dce499b3277faa
+guid: 3bf945c1f2e7d55498475bb83abd67e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8408742677998291522
-    second: Untitled_Artwork-20_0
+      213: 855067733875592807
+    second: Guide_0
+  - first:
+      213: -3499008042208567899
+    second: Guide_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,40 +112,71 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork-20_0
+      name: Guide_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 44
+        y: 276
+        width: 1435
+        height: 477
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24a41c90aead1b470800000000000000
-      internalID: 8408742677998291522
+      spriteID: 76e8d88d29fcddb00800000000000000
+      internalID: 855067733875592807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guide_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 94
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad5ce169b6017fc0800000000000000
+      internalID: -3499008042208567899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guide_2
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 94
+        width: 168
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b58df8dd01be41a290d9960884519
+      internalID: 725052292
       vertices: []
       indices: 
       edges: []
@@ -151,7 +185,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa6d226d2240ccc4a9054c9310a21523
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +195,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork-20_0: 8408742677998291522
+      Guide_2: 725052292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
