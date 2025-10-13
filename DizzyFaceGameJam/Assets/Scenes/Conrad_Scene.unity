@@ -1615,6 +1615,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1415666121}
+  - {fileID: 891449991}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -3006,6 +3007,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1954767087995136134, guid: a43235251e041f2458005523fb54819e, type: 3}
   m_PrefabInstance: {fileID: 888366116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &891449991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+  m_PrefabInstance: {fileID: 1782197246}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &939909405
 PrefabInstance:
@@ -5752,6 +5758,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6951610361463719993, guid: d63207b846a731f41866e7a18c0c1683, type: 3}
   m_PrefabInstance: {fileID: 1746476421}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1782197246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 519420032}
+    m_Modifications:
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487069430565889401, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659886625809144950, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
+      propertyPath: m_Name
+      value: Conrad_IceguyFallsCutscene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19f05aafc9da73849a762531bd721b5f, type: 3}
 --- !u!1001 &1799649201
 PrefabInstance:
   m_ObjectHideFlags: 0
