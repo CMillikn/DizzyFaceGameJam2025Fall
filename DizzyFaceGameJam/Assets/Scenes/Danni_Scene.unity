@@ -325,8 +325,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PlayerTime
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -928,8 +928,8 @@ MonoBehaviour:
   m_text: "Game Designers:\n\t\t\tConrad Milliken\n\t\t\tDanni Ren\n\t\t\tForest
     Wu\n\t\t\tZion Kim\nArtist:\n\t\t\tJudy Yang\n\t\t\tKayla Lee\n\t\t\tJulian\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.55
+  m_fontSize: 62.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1311,8 +1311,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SFX Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1905,8 +1905,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Music Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2619,8 +2619,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BestRunTime
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3057,8 +3057,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Master Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3725,7 +3725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &901189319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3804,7 +3804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &932756977
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4471,7 +4471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1042939090
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5258,8 +5258,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PlayerTime
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7407,8 +7407,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Score/Timer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7543,8 +7543,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BestRunTime
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7951,8 +7951,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b566e037550059447b4ea60ce7847844, type: 2}
-  m_sharedMaterial: {fileID: 3860282795642536283, guid: b566e037550059447b4ea60ce7847844, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
