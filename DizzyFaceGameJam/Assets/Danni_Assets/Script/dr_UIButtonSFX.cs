@@ -5,8 +5,12 @@ using UnityEngine.UI;
 // It requires a Button component to work
 
 [RequireComponent(typeof(Button))]
+
+
 public class dr_UIButtonSFX : MonoBehaviour
 {
+    public GameObject startCutscene;
+    public GameObject mainCam;
     // Optional: Replace default click sound with a custom one
     public AudioClip clickOverride;
 
@@ -20,6 +24,8 @@ public class dr_UIButtonSFX : MonoBehaviour
 
     void PlayClickSound()
     {
+        startCutscene = Instantiate(startCutscene, new Vector3(mainCam.transform.position.x,mainCam.transform.position.y,5), Quaternion.identity);
+        startCutscene.transform.parent = mainCam.transform;
         // Use custom clip if assigned, otherwise use default UI click from AudioManager
         var clip = clickOverride != null ? clickOverride : dr_AudioManager.I.uiClick;
         // Play the sound if a clip is available
